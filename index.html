@@ -37,39 +37,50 @@
         .cross.show {
             display: flex;
         }
+    
+        /* Mobile styles */
+        @media (max-width: 600px) {
+            .grid-container {
+                grid-template-columns: repeat(2, auto); /* Adjust the number of columns for smaller screens */
+            }
+            .grid-item {
+                font-size: 20px; /* Adjust the font size for smaller screens */
+                padding: 10px;
+            }
+        }
     </style>
 </head>
 <body>
     <h1>Platzi Developer Group: AI Insights 2024</h1>
     <div class="grid-container">
         <div class="grid-item" onclick="mark(this)"><div class="text">Text 1</div><div class="cross">X</div></div>
-        <div class="grid-item" onclick="mark(this)"><div class="text">Text 2</div><div class="cross">X</div></div>
+        <div class="grid-item" onclick="mark(this)"><div class="text">Busca a un participante que esté trabajando en start-ups</div><div class="cross">X</div></div>
         <div class="grid-item" onclick="mark(this)"><div class="text">Text 3</div><div class="cross">X</div></div>
         <div class="grid-item" onclick="mark(this)"><div class="text">Text 4</div><div class="cross">X</div></div>
         <div class="grid-item" onclick="mark(this)"><div class="text">Text 5</div><div class="cross">X</div></div>
 
         <div class="grid-item" onclick="mark(this)"><div class="text">Text 6</div><div class="cross">X</div></div>
         <div class="grid-item" onclick="mark(this)"><div class="text">Text 7</div><div class="cross">X</div></div>
-        <div class="grid-item" onclick="mark(this)"><div class="text">Text 8</div><div class="cross">X</div></div>
+        <div class="grid-item" onclick="mark(this)"><div class="text">Busca a un estudiante que use IA para proyectos universitarios</div><div class="cross">X</div></div>
         <div class="grid-item" onclick="mark(this)"><div class="text">Text 9</div><div class="cross">X</div></div>
         <div class="grid-item" onclick="mark(this)"><div class="text">Text 10</div><div class="cross">X</div></div>
 
         <div class="grid-item" onclick="mark(this)"><div class="text">Text 11</div><div class="cross">X</div></div>
-        <div class="grid-item" onclick="mark(this)"><div class="text">Text 12</div><div class="cross">X</div></div>
+        <div class="grid-item" onclick="mark(this)"><div class="text">Busca a alguien que quiera iniciar un podcast sobre tecnología</div><div class="cross">X</div></div>
         <div class="grid-item free">FREE</div>
         <div class="grid-item" onclick="mark(this)"><div class="text">Text 13</div><div class="cross">X</div></div>
         <div class="grid-item" onclick="mark(this)"><div class="text">Text 14</div><div class="cross">X</div></div>
 
         <div class="grid-item" onclick="mark(this)"><div class="text">Text 15</div><div class="cross">X</div></div>
         <div class="grid-item" onclick="mark(this)"><div class="text">Text 16</div><div class="cross">X</div></div>
-        <div class="grid-item" onclick="mark(this)"><div class="text">Text 17</div><div class="cross">X</div></div>
+        <div class="grid-item" onclick="mark(this)"><div class="text">Conoce a alguien que esté involucrado en proyectos de código abierto</div><div class="cross">X</div></div>
         <div class="grid-item" onclick="mark(this)"><div class="text">Text 18</div><div class="cross">X</div></div>
         <div class="grid-item" onclick="mark(this)"><div class="text">Text 19</div><div class="cross">X</div></div>
 
-        <div class="grid-item" onclick="mark(this)"><div class="text">Text 20</div><div class="cross">X</div></div>
+        <div class="grid-item" onclick="mark(this)"><div class="text">Conoce a alguien que haya cambiado su carrera gracias a Platzi</div><div class="cross">X</div></div>
         <div class="grid-item" onclick="mark(this)"><div class="text">Text 21</div><div class="cross">X</div></div>
         <div class="grid-item" onclick="mark(this)"><div class="text">Text 22</div><div class="cross">X</div></div>
-        <div class="grid-item" onclick="mark(this)"><div class="text">Text 23</div><div class="cross">X</div></div>
+        <div class="grid-item" onclick="mark(this)"><div class="text">Conoce a un diseñador que aplique la IA en su trabajo </div><div class="cross">X</div></div>
         <div class="grid-item" onclick="mark(this)"><div class="text">Text 24</div><div class="cross">X</div></div>
     </div>
 </body>
